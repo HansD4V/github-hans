@@ -1,9 +1,206 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Website HANS</title>
-  </head>
-  <body>
-    <h1>Hello Hans!</h1>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Favicon-->
+    <link rel="icon" type="image/svg" href="images/sija.svg">
+
+    <link rel="stylesheet" href="stylesmovie.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<header>
+<h1>Hans's Folder</h1>
+</header>
+
+
+<!--Navigation-->
+<nav class="navbar">
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="movie.html">Movie</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="info.html">Info</a></li>
+    </ul>
+</nav>
+
+<main>
+    
+  <!--Poster-->
+    <section id="movie-general">
+      <div class="movie-poster">
+          <img src="images/movies/Gundala.jpeg" alt="Gundala Poster">
+      </div>
+      <!--Deskripsi-->
+      <div class="movie-details">
+          <h2>Gundala</h2>
+          <h3 id="tagline">NEGERI INI BUTUH PATRIOT</h3>
+          <p>Release Date: August 29, 2019</p>
+          <p>Genre: Sci-Fi, Action, Adventure</p>
+          <div class="rating">
+              <h3>😁Personal Rating: <span id="good">9</span> / 10</h3>
+              <p>🍅<a href="https://www.rottentomatoes.com/m/gundala">Tomatometer: 75%</a></p>
+              <p>👍<a href="https://www.rottentomatoes.com/m/gundala">Audiencemeter: 78%</a></p>
+              <p>📺<a href="https://www.imdb.com/title/tt8237172/">IMDb: 6.1/10</a></p>
+              <p>Ⓜ️<a href="https://www.metacritic.com/movie/gundala/">Metacritic: -</a></p>
+              <p id="rating-date"><i>(Data as per 20-11-2024)</i></p>
+          </div>
+      </div>
+  </section>
+
+  <br>
+
+  <!--Section What To Know-->
+  <section id="whattoknow">
+    <h2>What To Know</h2>
+
+    <div class="whattoknow">
+    <h3>🥸Critics States</h3>
+    <p>Gundala is a visually striking and action-packed superhero origin story that blends elements of traditional comic book fare with Indonesian cultural influences. A successful pioneer in indonesia film industry.</p><br>
+    <h3>🤓Audience Says</h3>
+    <p>As a movie that takes place in the dystopia world, it was indeed intense! thrilling action sequences and fresh take on the superhero genre, something you rarely see in Indonesia movies.</p>
+    </div>
+    
+</section>
+
+  <br>
+
+  <!--Section Movie Information-->
+  <section id="movie-info">
+    <h2>Movie Information</h2>
+    
+  <div class="info-main">
+    <div class="info-board">
+
+      <div class="info-section"><p id="synopsis"><span id="synopsis-head">Synopsis</span><br>Gundala, who has grown up on the streets, must choose between continuing to look out for himself or doing something about the injustice that surrounds him.</p></div><br>
+      <div class="info-section"><p>Director: <a href="https://en.wikipedia.org/wiki/Joko_Anwar">Joko Anwar</a></p></div>
+      <div class="info-section"><p>Producer: Wicky V. Olindo, Bismarka Kurniawan, Sukhdev Singh</p></div>
+      <div class="info-section"><p>Screenwriter: Joko Anwar</p></div>
+      <div class="info-section"><p>Distributor: Columbia Pictures</p></div>
+      <div class="info-section"><p>Production Co: Screenplay Bumilangit, Screenplay Films, Ideosource Entertainment, Legacy Pictures</p></div>
+      <div class="info-section"><p>Genre: Sci-Fi, Action, Adventure</p></div>
+      <div class="info-section"><p>Original Language: Indonesia</p></div>
+      <div class="info-section"><p>Release Date: August 29, 2019</p></div>
+      <div class="info-section"><p>Runtime: 2h 3m</p></div>
+      <div class="info-section"><p>Rating: TV-14</p></div>
+
+    </div>
+  </div>
+
+  </section>
+
+<br>
+
+  <!-- Trailer Section -->
+  <section id="trailer">
+      <h2>Watch the Trailer</h2>
+      <div class="trailer-video">
+        <p align="center">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/8rauD1vxMCw?si=mhxal7IMggGPLXxn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </p>
+      </div>
+  </section>
+
+  <br>
+
+  <!-- Image Gallery -->
+  <section id="gallery">
+      
+      <h2>Image Gallery</h2>
+
+      <div class="gallery-images">
+          <a href="images/gundala/gundala1.jpg"><img src="images/gundala/gundala1.jpg" alt="Gundala Image 1"></a>
+          <a href="images/gundala/gundala2.jpg"><img src="images/gundala/gundala2.jpg" alt="Gundala Image 2"></a>
+          <a href="images/gundala/gundala3.jpg"><img src="images/gundala/gundala3.jpg" alt="Gundala Image 3"></a>
+          <a href="images/gundala/gundala4.jpg"><img src="images/gundala/gundala4.jpg" alt="Gundala Image 4"></a>
+          <a href="images/gundala/gundala5.jpg"><img src="images/gundala/gundala5.jpg" alt="Gundala Image 5"></a>
+          <a href="images/gundala/gundala6.jpg"><img src="images/gundala/gundala6.jpg" alt="Gundala Image 6"></a>
+        </div>
+
+  </section>
+
+  <br>
+
+  <!-- Reviews Section -->
+  <section id="reviews">
+      <h2>Reviews</h2>
+      <div class="review">
+          <h3>Critic Review:</h3>
+          <p>"An action-packed and emotionally satisfying adaptation of the treasured Indonesian comicbook created by Harya "Hasmi" Suraminata."</p><br>
+          <p>- <i>Richard Kuipers (Variety)</i><br> <span id="good">Good</span></p>
+      </div>
+      <div class="review">
+        <h3>Negative Review:</h3>
+        <p>"While slick and well choreographed Indonesian martial arts sequences sure do help... the rest of the film feels very familiar to anyone who's seen even a handful of superhero movies."</p><br>
+        <p>- <i>Ed Travis (Cinapse)</i><br> <span id="bad">Bad</span></p>
+    </div>
+      <div class="review">
+          <h3>Personal Review:</h3>
+          <p>"Sebuah karya dari Joko Anwar dalam dunia Bumi Langit, sebuah gebrakan yang berani terhadap dunia perfilman Indonesia yang umumnya selalu bergenre horror. Sinematografi dan visual yang apik dan alur yang beda dari film superhero lain membuat film ini pantas mendapatkan pujian dari para penonton."</p><br>
+          <p>- <i>Hans Nathanael Kusuma (X-SIJA)</i><br> <span id="good">9/10</span></p> 
+      </div>
+      <div class="review">
+        <h3>Indonesian Review:</h3>
+        <p>"Sukar rasanya menilai Gundala sebagai film yang bagus. Tapi di sisi lain, film ini juga tidak buruk. Kata yang mungkin tepat untuk menilai Gundala adalah "biasa". Ada beberapa faktor yang menyebabkan film ini mendapat label itu. Mulai dari eksekusi cerita, logika cerita, perpindahan antar adegan, pembentukan karakter dan koreografi masih belum terasa ajek.</p><br>
+        <p>- <i>Muhammad Andika Putra (CNN Indonesia)</i><br> <span id="bad">Bad</span></p> 
+    </div>
+  </section>
+
+</main>
+
+<br>
+
+<!--Footer-->
+<footer>
+        <div class="header">
+        <h1>Review Film dan Musik</h1>
+        <p>Baca review mingguan mengenai film dan musik favoritmu di situs ini.</p>
+        </div>
+
+        <div class="footer-container">
+            <div class="footer-section">
+              <h3>About</h3>
+              <p>This is a casual website created and developed by a student in SMKN 1 JAKARTA that reviews popular films and musics.<br> [HANS NATHANAEL KUSUMA X-SIJA]</p>
+            </div>
+      
+            <div class="footer-section">
+              <h3>Links</h3>
+              <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="movie.html">Movie</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="info.html">Info</a></li>
+              </ul>
+            </div>
+      
+            <div class="footer-section">
+              <h3>Contacts</h3>
+              <p>Email: <a href="mailto:reapsterrydev@gmail.com">reapsterrydev@gmail.com</a></p>
+              <p>Email: <a href="mailto:friedcatstudio@gmail.com">friedcatstudio@gmail.com</a></p>
+              <p>Whatsapp: +62 896-7158-6086</p>
+              <div class="logo">
+              <a href="https://www.instagram.com/shiinchns/"><i class="fa-brands fa-square-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/hans-nathanael-kusuma-720b28335/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.facebook.com/reapsterry.reapsterry/"><i class="fa-brands fa-square-facebook"></i></a>
+              <a href="https://www.youtube.com/@epstyxchou4004/videos"><i class="fa-brands fa-square-youtube"></i></a>
+                </div>
+                <p> Jl. Budi Utomo No.7, Pasar Baru<br> Kecamatan Sawah Besar, Kota Jakarta Pusat<br> Daerah Khusus Ibukota Jakarta 10710</p>
+            </div>
+        </div>
+      
+            <img id="foto_diri" src="images/foto_diri.jpg" width="200px">
+
+          <div class="footer-bottom">
+            <p>&copy; 2024 SMKN 1 JAKARTA. SIJA - DPK.</p>
+          </div>
+</footer>
+
+</body>
 </html>
